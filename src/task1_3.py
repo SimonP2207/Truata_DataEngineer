@@ -9,7 +9,7 @@ counts = rdd.map(lambda line: line.split(','))\
             .reduceByKey(lambda a, b: a + b)\
             .sortBy(lambda x: x[1], ascending=False)\
 
-if __name__ == '__madin__':
+if __name__ == '__main__':
     # Assign index to each line, filter indices >= 5 out, remove indices, write
     # to text file
     counts.zipWithIndex() \
