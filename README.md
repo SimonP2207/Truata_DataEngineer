@@ -1,2 +1,1 @@
-To activate venv use: conda activate pyspark
-Using https://spark.apache.org/docs/latest/rdd-programming-guide.html#overview for tutorial
+Please run all python code with current working directory as ./src, or add ./src to your $PYTHONPATH, as difference task scripts import data structures from previous tasks in some cases.
