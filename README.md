@@ -1,1 +1,1 @@
-Please run all python code with current working directory as ./src, or add ./src to your $PYTHONPATH, as difference task scripts import data structures from previous tasks in some cases.
+Please run all python code with current working directory as ./src, or add ./src to your $PYTHONPATH, as different task scripts import data structures from previous tasks in some cases.
